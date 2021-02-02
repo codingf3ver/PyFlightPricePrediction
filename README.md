@@ -5,7 +5,8 @@
 details about the various flight carriers of
 more than 10 thousands rows which will predict the
 estimated flight price by feeding various inputs to the
-RandomForestsRegressor ```
+RandomForestsRegressor 
+```
 
 ## App link
 ``` https://mlflightprice.herokuapp.com/ ```
