@@ -37,7 +37,7 @@ def main():
     #Journey date
     date=st.date_input('Date of Journey')
     if date<date.today():
-        st.error('You are chosing the day which has already passed ,Kindly select the right date')
+        st.error('You are selecting the day which has already been passed ,kindly change the date')
 
     #Departure time
     dep_time=st.time_input('Departure Time')
@@ -96,9 +96,10 @@ def main():
         dur_min)
         st.success(f"Your appromimate flight price  is  {result}")
         st.balloons()
+        st.error("*Disclaimer: This flight price doesn't guaranteed you the actual on kindly! visit the respective airline website")
     html= """
         <div style="background-color:tomato;padding:3px">
-        <h3 style="color:black;text-align:center;">@Copyright Quantum Data Analytics </h3>
+        <h3 style="color:black;text-align:center;">@Copyright Md Tausif </h3>
         </div>
         """
     st.markdown(html,unsafe_allow_html=True)
