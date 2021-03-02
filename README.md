@@ -16,8 +16,8 @@ https://mlflightprice.herokuapp.com/
 ## Machine Learning Algorithm
 
 ```
-I have applied various Regression algorithm also but the best on which has produced by 
-RandomForestRegressor so after applying hyperparameter tuning finally I have trained the
+I have applied various Regression algorithm but the best on which has produced best result is 
+RandomForestRegressor so after hyperparameter tuning finally I have trained the
 model on RandomForestRegressor.
 
 ```
