@@ -16,7 +16,7 @@ https://mlflightprice.herokuapp.com/
 ## Machine Learning Algorithm
 
 ```
-I have applied various Regression algorithm but the best on which has produced best result is 
+I have applied various Regression algorithm but the none of them produced promising results other than 
 RandomForestRegressor so after hyperparameter tuning finally I have trained the
 model on RandomForestRegressor.
 
